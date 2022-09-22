@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 21 03:56:06 2022
 
-@author: Hong
+@author: ajie
 """
 import numpy as np
 import tensorflow as tf
@@ -28,8 +28,8 @@ learning_rate = 0.001
 weight_decay = 0.0001
 batch_size = 256
 num_epochs = 100
-image_size = 72  # We'll resize input images to this size
-patch_size = 6  # Size of the patches to be extract from the input images
+image_size = 32  # We'll resize input images to this size
+patch_size = 8  # Size of the patches to be extract from the input images
 num_patches = (image_size // patch_size) ** 2
 projection_dim = 64
 num_heads = 4
@@ -170,7 +170,7 @@ def run_experiment(model):
         ],
     )
 
-    checkpoint_filepath = "C:/Users/Hong/Documents/Py_workspace/bestmodel"
+    checkpoint_filepath = "./checkpoints"
     checkpoint_callback = keras.callbacks.ModelCheckpoint(
         checkpoint_filepath,
         monitor="val_accuracy",
