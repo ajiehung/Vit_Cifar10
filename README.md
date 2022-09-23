@@ -11,8 +11,10 @@ When Using cifar10 dataset,the image shape are (32,32) with 50000 train images a
 
 We split the image into fixed-size image patches, linearly embed and add positional information to each patch, and feed the resulting vector sequence to a standard Transformer encoder
 And we set the patches with 8 by image size is 32
+
     image_size = 32 
 	patch_size = 8
+	
 So we can see each paych have (8,8) and get 4x4 = 16 patches
 
 **original cifar10 image and patches cifar image**
