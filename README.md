@@ -15,7 +15,7 @@ And we set the patches with 8 by image size is 32
     image_size = 32 
 	patch_size = 8
 	
-So we can see each paych have (8,8) and get 4x4 = 16 patches
+So we can see each patch have (8,8) and get 4x4 = 16 patches
 
 **original cifar10 image and patches cifar image**
 
