@@ -25,11 +25,11 @@ After 100 num epochs training, the result show below.
 Accuracy
 That is, when predicting a picture, the result with the greatest probability is the correct answer, which is regarded as correct.
 
-![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/model acc.png)
-![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/model loss.png)
+![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/model_acc.png)
+![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/model_loss.png)
 
 
 Top-5 accuracy
 When predicting a picture, the top five results after the probability order contain the correct answer, which is regarded as correct.
 
-![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/top-5 acc.png)
+![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/top-5_acc.png)
