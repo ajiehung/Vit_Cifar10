@@ -11,10 +11,6 @@ And we set the patches with 8 by image size is 32
 	patch_size = 8
 So we can see each paych have (8,8) and get 4x4 = 16 patches
 
-###### original cifar10 image
+**original cifar10 image and patches cifar image**
 
-![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/original_img.png)
-
-###### patches cifar image
-
-![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/patches_img.png)
+![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/original_img.png)![image](https://github.com/ajiehung/vit_cifar10/blob/main/images/patches_img.png)
